@@ -1,0 +1,8 @@
+apiVersion: logging.example.com/v1alpha1
+kind: Elasticsearch
+metadata:
+  name: elasticsearch-sample
+spec:
+  # Add fields here
+  foo: bar
+  size: 3
